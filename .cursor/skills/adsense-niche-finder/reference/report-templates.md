@@ -2,6 +2,27 @@
 
 Copy these into the research folder. Keep the field names so runs are comparable.
 
+## RESEARCH-LOG.md (Audit & Activity Log)
+
+```markdown
+# Research Activity & Query Log — <date>
+
+## Chronological Action Log
+| # | Timestamp | Niche / Candidate | Action / Tool | Exact Query / Target URL / Endpoint | Key Results & Observations | Decision / Next Action |
+|---|-----------|-------------------|---------------|-------------------------------------|----------------------------|------------------------|
+| 1 | 00:15:20  | Microgreens Setup | Google Suggest | `suggestqueries...q=microgreens+at+home` | 10 suggestions: without soil, jar, indoors | Confirms demand; expand seeds |
+| 2 | 00:16:10  | Microgreens Setup | Wikipedia API  | `Microgreen` monthly pageviews      | 5,650 views/mo, stable over 12 months       | PASS demand gate       |
+| 3 | 00:18:40  | Microgreens Setup | SERP Check    | `how to prevent mold in microgreens` | #1 Reddit, #2 YouTube, 0 giant brands       | PASS beatability gate  |
+
+## Detailed Investigation Entries
+
+### [LOG-001] <Niche / Candidate Name>
+- **Objective / Hypothesis Tested**:
+- **Tool & Exact Command / URL**:
+- **Output / Findings (numbers, domains, suggestions)**:
+- **Interpretation & Verdict**:
+```
+
 ## candidates.md (Phase 1)
 
 ```markdown

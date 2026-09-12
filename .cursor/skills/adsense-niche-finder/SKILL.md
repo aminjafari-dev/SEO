@@ -16,6 +16,7 @@ Goal context: read `GOAL.md` at the workspace root first. Summary: pick a niche 
 
 - Work autonomously. Do not ask the user which niche to pick; produce a ranked shortlist with evidence.
 - Save everything under `research/<YYYY-MM-DD>/`. Create it if missing. Write progress as you go so a crashed run can resume.
+- Maintain `research/<YYYY-MM-DD>/RESEARCH-LOG.md` continuously: log every query, tool/endpoint called, returned payload or findings summary, and the resulting analytical decision.
 - Prefer measured data over tool estimates, and estimates over guesses. Label every number as `measured`, `estimated`, or `proxy`.
 - Never fabricate volumes, KD scores, CPCs, or RPMs. If a number is unavailable, say so and use the proxy method.
 - Prefer sources published within the last 12 months for anything about Google, AdSense, or AI search; these change fast.
@@ -36,7 +37,7 @@ Progress:
 
 ### Phase 0: Setup
 
-1. Create `research/<date>/` with `candidates.md`, `quick-filter.md`, `deep-dive/`, `FINAL-REPORT.md`.
+1. Create `research/<date>/` with `RESEARCH-LOG.md`, `candidates.md`, `quick-filter.md`, `deep-dive/`, and `FINAL-REPORT.md`.
 2. Read the reference files listed at the bottom as needed. Do not load all at once; load per phase.
 
 ### Phase 1: Generate candidates (target 40+)
